@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/reactest/static/css/main.ea1455b2.chunk.css",
+    "main.js": "/reactest/static/js/main.9f10f615.chunk.js",
+    "main.js.map": "/reactest/static/js/main.9f10f615.chunk.js.map",
+    "runtime-main.js": "/reactest/static/js/runtime-main.0e509f8c.js",
+    "runtime-main.js.map": "/reactest/static/js/runtime-main.0e509f8c.js.map",
+    "static/css/2.e6c1e8c5.chunk.css": "/reactest/static/css/2.e6c1e8c5.chunk.css",
+    "static/js/2.688e0956.chunk.js": "/reactest/static/js/2.688e0956.chunk.js",
+    "static/js/2.688e0956.chunk.js.map": "/reactest/static/js/2.688e0956.chunk.js.map",
+    "static/js/3.a3306edb.chunk.js": "/reactest/static/js/3.a3306edb.chunk.js",
+    "static/js/3.a3306edb.chunk.js.map": "/reactest/static/js/3.a3306edb.chunk.js.map",
+    "index.html": "/reactest/index.html",
+    "static/css/2.e6c1e8c5.chunk.css.map": "/reactest/static/css/2.e6c1e8c5.chunk.css.map",
+    "static/css/main.ea1455b2.chunk.css.map": "/reactest/static/css/main.ea1455b2.chunk.css.map",
+    "static/js/2.688e0956.chunk.js.LICENSE.txt": "/reactest/static/js/2.688e0956.chunk.js.LICENSE.txt",
+    "static/media/pomme1.jpg": "/reactest/static/media/pomme1.16ed24b1.jpg",
+    "static/media/pomme2.png": "/reactest/static/media/pomme2.e0770e93.png",
+    "static/media/pomme3.jpg": "/reactest/static/media/pomme3.1baeef82.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e509f8c.js",
+    "static/css/2.e6c1e8c5.chunk.css",
+    "static/js/2.688e0956.chunk.js",
+    "static/css/main.ea1455b2.chunk.css",
+    "static/js/main.9f10f615.chunk.js"
+  ]
+}
