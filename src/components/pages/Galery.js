@@ -38,12 +38,12 @@ const Galery = () => {
     )
   const Pagination = () => (
     <nav aria-label="Page navigation example">
-  <ul class="pagination">
-    <li class={"page-item "+(page===1?"disabled":null)}><a class="page-link" onClick={()=> page>1?setPage(page-1):null} href="#">Previous</a></li>
-    <li class="page-item active"><a class="page-link" href="#">{page}</a></li>
-    <li class="page-item"><a class="page-link" onClick={()=>setPage(page+1)} href="#">{page+1}</a></li>
-    <li class="page-item"><a class="page-link" onClick={()=>setPage(page+2)} href="#">{page+2}</a></li>
-    <li class="page-item"><a class="page-link" onClick={()=>setPage(page+1)} href="#">Next</a></li>
+  <ul className="pagination">
+    <li className={"page-item "+(page===1?"disabled":null)}><a className="page-link" onClick={()=> page>1?setPage(page-1):null} href="#">Previous</a></li>
+    <li className="page-item active"><a className="page-link" href="#">{page}</a></li>
+    <li className="page-item"><a className="page-link" onClick={()=>setPage(page+1)} href="#">{page+1}</a></li>
+    <li className="page-item"><a className="page-link" onClick={()=>setPage(page+2)} href="#">{page+2}</a></li>
+    <li className="page-item"><a className="page-link" onClick={()=>setPage(page+1)} href="#">Next</a></li>
   </ul>
 </nav>
   )
@@ -55,25 +55,25 @@ const Galery = () => {
                 <div className="col-12 col-md-6">
                 
 
-                  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
+                  <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div className="carousel-inner">
+      <div className="carousel-item active">
       <img src={require("../../assests/images/pomme1.jpg").default}/>
       </div>
-      <div class="carousel-item">
+      <div className="carousel-item">
       <img src={require("../../assests/images/pomme2.png").default}/>
       </div>
-      <div class="carousel-item">
+      <div className="carousel-item">
       <img src={require("../../assests/images/pomme3.jpg").default}/>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
+    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span className="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
+    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span className="carousel-control-next-icon" aria-hidden="true"></span>
+      <span className="visually-hidden">Next</span>
     </button>
   </div>
  
