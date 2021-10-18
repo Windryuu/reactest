@@ -94,6 +94,8 @@ const Galery = () => {
             </div>
             <div>
                 <Pagination/>
+                {// could be <Pagination page={page} setPage={setPage} />
+                }
             </div>
       </section>) }
 
